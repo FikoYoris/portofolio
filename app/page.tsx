@@ -559,11 +559,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-[#2A7221]/30 px-6 py-8">
-        <div className="mx-auto flex max-w-6xl flex-col justify-between gap-3 text-sm text-zinc-500 sm:flex-row">
-          <p>© 2026 Fiko Yorisdwi &apos;Aliy</p>
-          <p>Built with Next.js</p>
+      <footer className="border-t border-white/10 px-6 py-8">
+        <div className="mx-auto max-w-6xl text-center">
+          <p className="text-sm text-zinc-500">
+            © 2026 Fiko Yorisdwi 'Aliy —  All rights reserved.
+          </p>
         </div>
       </footer>
     </main>
