@@ -327,6 +327,7 @@ export default function Home() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-2">
+
             {/* Data Analytics */}
             <article className="rounded-3xl border border-[#2A7221]/30 bg-[#152614] p-7 transition hover:-translate-y-1 hover:border-[#119822] hover:shadow-[0_15px_50px_rgba(17,152,34,0.12)]">
               <p className="text-sm uppercase tracking-[0.2em] text-[#119822]">
@@ -346,6 +347,7 @@ export default function Home() {
                   "NumPy",
                   "Data Cleaning",
                   "Exploratory Data Analysis",
+                  "Feature Engineering",
                 ].map((skill) => (
                   <span
                     key={skill}
@@ -357,7 +359,7 @@ export default function Home() {
               </div>
             </article>
 
-            {/* Data Science & Machine Learning */}
+            {/* Machine Learning & Deep Learning */}
             <article className="rounded-3xl border border-[#2A7221]/30 bg-[#152614] p-7 transition hover:-translate-y-1 hover:border-[#119822] hover:shadow-[0_15px_50px_rgba(17,152,34,0.12)]">
               <p className="text-sm uppercase tracking-[0.2em] text-[#119822]">
                 Data Science
@@ -371,9 +373,13 @@ export default function Home() {
                 {[
                   "Scikit-learn",
                   "XGBoost",
+                  "Logistic Regression",
+                  "Random Forest",
+                  "SVM",
                   "PyTorch",
-                  "Machine Learning",
-                  "Deep Learning",
+                  "CNN",
+                  "BiLSTM",
+                  "Multimodal Learning",
                   "Time-Series",
                 ].map((skill) => (
                   <span
@@ -415,22 +421,25 @@ export default function Home() {
               </div>
             </article>
 
-            {/* Database & Tools */}
+            {/* Tools & Development */}
             <article className="rounded-3xl border border-[#2A7221]/30 bg-[#152614] p-7 transition hover:-translate-y-1 hover:border-[#119822] hover:shadow-[0_15px_50px_rgba(17,152,34,0.12)]">
               <p className="text-sm uppercase tracking-[0.2em] text-[#119822]">
-                Database & Tools
+                Tools & Development
               </p>
 
               <h3 className="mt-3 text-2xl font-semibold">
-                Development Environment
+                Development Tools
               </h3>
 
               <div className="mt-6 flex flex-wrap gap-2">
                 {[
                   "MySQL",
-                  "Git & GitHub",
+                  "PostgreSQL",
+                  "Git",
+                  "GitHub",
                   "Google Colab",
                   "VS Code",
+                  "Next.js",
                 ].map((skill) => (
                   <span
                     key={skill}
@@ -441,6 +450,7 @@ export default function Home() {
                 ))}
               </div>
             </article>
+
           </div>
         </div>
       </section>
